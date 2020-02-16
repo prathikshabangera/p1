@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prathiksha</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="jquery.bxslider.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="top">
+		<h1> Prathiksha </h1>
+		<h2> Email@gmail.com</h2>
+	</div>
+	<nav>
+		<div class="toggle">
+			<i class="fa fa-bars  menu" aria-hidden="true"></i>
+		</div>
+		<ul>
+			<li><a href="#"> Home</a></li>
+			<li><a href="#"> Services </a></li>
+			<li><a href="#"> Gallery </a></li>
+			<li><a href="#"> Products</a></li>
+			<li><a href="#">Contact </a></li>
+		</ul>
+	</nav>
+	<div class="bxslider">
+  <div><img src="image/13.jpg"></div>
+  <div><img src="image/14.jpg"></div>
+  <div><img src="image/12.jpg"></div>
+</div>
+<br>
+
+<div class="titled">
+	<h1> Our Gallery </h1>
+</div>
+<div class="imgglry">
+	<div class="container"><img src="image/11.jpg">
+	 <div class="overlay">
+    <div class="text">Hello World</div>
+  	</div>
+	</div>
+	<div class="container"><img src="image/14.jpg">
+	 <div class="overlay">
+    <div class="text">Hello World</div>
+  	</div>
+	</div>
+	<div class="container"><img src="image/15.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+	<div class="container"><img src="image/17.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+	<div class="container"><img src="image/1.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+	<div class="container"><img src="image/2.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+	<div class="container"><img src="image/3.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+	<div class="container"><img src="image/4.jpg">
+		 <div class="overlay">
+    	<div class="text">Hello World</div>
+  		</div>
+	</div>
+</div>
+<div class="about">
+	<h2> About US </h2>
+	<p> In 1996, Microsoft released its first competitive browser, which was complete with its own features and HTML tags. It was also the first browser to support style sheets, which at the time was seen as an obscure authoring technique and is today an important aspect of web design. The HTML markup for tables was originally intended for displaying tabular data. However designers quickly realized the potential of using HTML tables for creating the complex, multi-column layouts that were otherwise not possible. At this time, as design and good aesthetics seemed to take precedence over good mark-up structure, and little attention was paid to semantics and web accessibility. HTML sites were limited in their design options, even more so with earlier versions of HTML. To create complex designs, many web designers had to use complicated table structures or even use blank spacer .GIF images to stop empty table cells from collapsing. CSS was introduced in December 1996 by the W3C to support presentation and layout. This allowed HTML code to be semantic rather than both semantic and presentational, and improved web accessibility, see tableless web design.<br> <br>
+	During 1998 Netscape released Netscape Communicator code under an open source licence, enabling thousands of developers to participate in improving the software. However, they decided to start from the beginning, which guided the development of the open source browser and soon expanded to a complete application platform. The Web Standards Project was formed and promoted browser compliance with HTML and CSS standards by creating Acid1, Acid2, and Acid3 tests. 2000 was a big year for Microsoft. Internet Explorer was released for Mac; this was significant as it was the first browser that fully supported HTML 4.01 and CSS 1, raising the bar in terms of standards compliance. It was also the first browser to fully support the PNG image format. During this time Netscape was sold to AOL and this was seen as Netscape’s official loss to Microsoft in the browser wars.
+	</p>
+</div>
+
+
+<div class="foot">
+	<h3> Copyright &copy; 2020 | Prathiksha | Website Template</h3>
+</div>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.bxslider.js"></script>
+<script>
+	$(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+  });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.menu').click(function(){
+		$('ul').toggleClass('active');
+	})
+})	
+</script>
+</body>
+</html>
